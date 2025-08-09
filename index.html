@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAY 2025 — Pre-registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SAY 2025 — Pre-registration</h1>
+    <p class="lead">Fill out the form below to secure your spot for the Deeper Life Bible Church Youth Program, SAY 2025. Fields marked <span class="required-star">*</span> are required.</p>
+
+    <form action="mailto:duahgideon55@gmail.com" method="post" enctype="text/plain">
+      
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>1. Personal Information</legend>
+        <div class="grid">
+          <div>
+            <label for="fullName">Full name <span class="required-star">*</span></label>
+            <input id="fullName" name="Full Name" type="text" placeholder="First Middle Last" required>
+          </div>
+          <div>
+            <label for="dob">Date of birth <span class="required-star">*</span></label>
+            <input id="dob" name="Date of Birth" type="date" required>
+          </div>
+          <div>
+            <label for="gender">Gender <span class="required-star">*</span></label>
+            <select id="gender" name="Gender" required>
+              <option value="">-- Select --</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Prefer not to say</option>
+            </select>
+          </div>
+          <div>
+            <label for="phone">Contact number <span class="required-star">*</span></label>
+            <input id="phone" name="Phone" type="tel" placeholder="+233 24 000 0000" required>
+          </div>
+          <div>
+            <label for="email">Email address</label>
+            <input id="email" name="Email" type="email" placeholder="you@example.com">
+          </div>
+          <div>
+            <label for="address">Home address / City</label>
+            <input id="address" name="Address" type="text" placeholder="e.g., Abrepo, Kumasi">
+          </div>
+          <div style="grid-column: 1 / -1;">
+            <label for="emergencyContact">Emergency contact <span class="required-star">*</span></label>
+            <input id="emergencyContact" name="Emergency Contact" type="text" placeholder="Jane Doe — +233 24 000 0000" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Church Information -->
+      <fieldset>
+        <legend>2. Church Information</legend>
+        <div class="grid">
+          <div>
+            <label for="localChurch">Local church / district name <span class="required-star">*</span></label>
+            <input id="localChurch" name="Local Church" type="text" placeholder="e.g., Deeper Life — Abrepo" required>
+          </div>
+          <div>
+            <label for="region">Region / State <span class="required-star">*</span></label>
+            <input id="region" name="Region" type="text" placeholder="e.g., Ashanti" required>
+          </div>
+          <div>
+            <label for="youthLeader">Name of youth leader / pastor</label>
+            <input id="youthLeader" name="Youth Leader" type="text" placeholder="Pastor Samuel Mensah">
+          </div>
+          <div>
+            <label for="membership">Church membership status <span class="required-star">*</span></label>
+            <select id="membership" name="Membership" required>
+              <option value="">-- Select --</option>
+              <option>Member</option>
+              <option>Visitor</option>
+              <option>First timer</option>
+            </select>
+          </div>
+          <div style="grid-column: 1 / -1;">
+            <label for="howHeard">How did you hear about SAY 2025?</label>
+            <input id="howHeard" name="How Heard" type="text" placeholder="e.g., Youth leader, Social media, Friend">
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Actions -->
+      <div class="actions">
+        <button type="reset" class="secondary">Reset</button>
+        <button type="submit">Submit pre-registration</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
